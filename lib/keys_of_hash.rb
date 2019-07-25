@@ -7,7 +7,7 @@ class Hash
     end
     self.each do |key, value|
       # puts "Key is #{key}. Value is #{value}"
-      if value == arguments
+      if value == arguments || hash
         array_of_keys << key
       end
     end
