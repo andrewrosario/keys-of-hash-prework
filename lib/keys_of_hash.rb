@@ -5,7 +5,7 @@ class Hash
     puts hash.class
     self.each do |key, value|
       # puts "Key is #{key}. Value is #{value}"
-      if value == arguments || value == hash
+      if value == arguments || value == hash[0]
         array_of_keys << key
       end
     end
