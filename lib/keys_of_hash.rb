@@ -3,6 +3,8 @@ class Hash
     # code goes here
     puts arguments
     array_of_keys = []
-    puts self
+    self.each do |key, value|
+      puts "Key is #{key}. Value is #{value}"
+    end
   end
 end
