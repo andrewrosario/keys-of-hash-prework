@@ -3,5 +3,6 @@ class Hash
     # code goes here
     puts arguments
     array_of_keys = []
+    
   end
 end
